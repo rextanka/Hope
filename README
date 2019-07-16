@@ -1,3 +1,39 @@
+This is a copy of code that Ross Paterson used to host. The original files have 
+disappeared since around 2015 or so. I made minimal changes to make this build on
+Linux. The main changes were to add datarootdir to the Makefile.in files for autoconf
+2.60+ and to change the getline function to hope_getline.
+
+You'll need to install a few extra packages for a successful build:
+
+) The linux disto for windows come pretty much stripped, so you'll need to install the following
+    a) gcc
+    b) make
+    b) man-db
+    c) bison
+    d) autoconf
+    e) texlive
+    f) byacc
+    g) gawk
+    h) latex2html
+
+The following commands may be required for the install of these packages on a Debian like system.
+
+     sudo apt-get install gcc
+     sudo apt-get install make
+     sudo apt-get install man-db
+     sudo apt-get install bison
+     sudo apt-get install autoconf
+     sudo apt-get install yacc
+     sudo apt-get install byacc
+     sudo apt-get install latex
+     sudo apt-get install texlive
+     sudo texhash
+     sudo apt-get install gawk
+     sudo apt-get install latex2html
+
+
+Original readme
+
 A lazy interpreter for the functional language Hope
 Copyright 1990,1991,1993 by Ross Paterson
 

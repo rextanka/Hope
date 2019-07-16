@@ -3,6 +3,7 @@ SHELL	= /bin/sh
 # stuff from configure:
 prefix = @prefix@
 INSTALL	= @INSTALL@
+datarootdir = @datarootdir@
 INSTALL_DATA = @INSTALL_DATA@
 
 # where the standard modules live

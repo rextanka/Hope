@@ -23,6 +23,7 @@ LDFLAGS	= @LDFLAGS@
 LIBS	= @LIBS@
 YACC	= @YACC@
 mandir	= @mandir@/man1
+datarootdir = @datarootdir@
 
 # Where the standard modules live.
 hopelib	= @HOPELIB@

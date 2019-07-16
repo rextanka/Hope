@@ -5,6 +5,8 @@ AWK	= @AWK@
 INSTALL	= @INSTALL@
 docdir	= @HOPEDOC@
 srcdir	= @HOPEDOC@/src
+datarootdir = @datarootdir@
+
 
 htmldir	= $(docdir)
 

@@ -1,11 +1,18 @@
 This is a copy of code that Ross Paterson used to host. The original files have 
-disappeared since around 2015 or so. I made minimal changes to make this build on
-Linux. The main changes were to add datarootdir to the Makefile.in files for autoconf
-2.60+ and to change the getline function to hope_getline.
+disappeared since around 2013 or so. You can use the Internet Archive to find the 
+top level page at this locaiton. See
+
+https://web.archive.org/web/20131022235656/http://www.soi.city.ac.uk/~ross/Hope/
+
+I made minimal changes to make this build on Linux. The main changes were to add 
+datarootdir to the Makefile.in files for autoconf 2.60+ and to change the getline 
+function to hope_getline.
 
 You'll need to install a few extra packages for a successful build:
 
-) The linux disto for windows come pretty much stripped, so you'll need to install the following
+The linux disto for windows comes pretty much stripped, so you'll need to install the 
+following for that environment, I also want to test this for Raspberry Pi systems.
+
     a) gcc
     b) make
     b) man-db

@@ -1,12 +1,16 @@
 This is a copy of code that Ross Paterson used to host. The original files have 
 disappeared since around 2013 or so. You can use the Internet Archive to find the 
-top level page at this locaiton. See
+top level page at this location. See
 
 https://web.archive.org/web/20131022235656/http://www.soi.city.ac.uk/~ross/Hope/
 
 I made minimal changes to make this build on Linux. The main changes were to add 
 datarootdir to the Makefile.in files for autoconf 2.60+ and to change the getline 
 function to hope_getline.
+
+If you are having difficulty making this build, do make sure that you are using the
+correct line endings for the system you are building on. Bison and Yacc will cause 
+strange build failures with incorrect line endings.
 
 You'll need to install a few extra packages for a successful build:
 
